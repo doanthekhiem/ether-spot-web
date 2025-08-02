@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=OCR+A+Extended&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=OCR+A+Extended&display=swap");
 @import "tailwindcss";
 
 :root {
   --background: #0a0a0a;
   --foreground: #ffffff;
-  --primary: #39FF14;
+  --primary: #39ff14;
   --secondary: #8b5cf6;
   --accent: #1f2937;
 }
@@ -15,8 +15,8 @@
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-accent: var(--accent);
-  --font-sans: 'Montserrat', sans-serif;
-  --font-mono: 'OCR A Extended', monospace;
+  --font-sans: "Montserrat", sans-serif;
+  --font-mono: "OCR A Extended", monospace;
 }
 
 body {
@@ -36,10 +36,15 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #39FF14;
+  background: #39ff14;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #2dd012;
+}
+
+/* Custom clip path for diagonal corner */
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 0 100%);
 }
