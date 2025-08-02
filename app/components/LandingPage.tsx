@@ -1,12 +1,12 @@
-import Header from './Header';
-import HeroSection from './HeroSection';
-import HowItWorksSection from './HowItWorksSection';
-import WhyChooseSection from './WhyChooseSection';
-import UseCasesSection from './UseCasesSection';
-import TokenUtilitySection from './TokenUtilitySection';
-import TokenDistributionSection from './TokenDistributionSection';
-import RoadmapSection from './RoadmapSection';
-import Footer from './Footer';
+import Header from "./Header";
+import HeroSection from "./HeroSection";
+import HowItWorksSection from "./HowItWorksSection";
+import WhyChooseSection from "./WhyChooseSection";
+import UseCasesSection from "./UseCasesSection";
+import TokenUtilitySection from "./TokenUtilitySection";
+import TokenDistributionSection from "./TokenDistributionSection";
+import RoadmapSection from "./RoadmapSection";
+import Footer from "./Footer";
 
 export default function LandingPage() {
   return (
@@ -20,14 +20,14 @@ export default function LandingPage() {
         <TokenUtilitySection />
         <TokenDistributionSection />
         <RoadmapSection />
-        
+
         {/* Final CTA Section */}
         <section className="relative py-20 bg-gradient-to-r from-primary to-secondary">
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            <div className="text-3xl md:text-4xl font-mono text-white mb-6">
               Ready to Turn Your WiFi Into Income?
-            </h2>
+            </div>
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
               Join the movement. Build the network. Earn SPOT.
             </p>
@@ -40,4 +40,4 @@ export default function LandingPage() {
       <Footer />
     </div>
   );
-} 
+}

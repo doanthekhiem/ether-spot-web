@@ -3,38 +3,37 @@ export default function RoadmapSection() {
     {
       phase: "Phase 1",
       title: "Mainnet Launch + ERC-20 node cluster live",
-      description: "Core infrastructure deployment and initial node network establishment"
+      description:
+        "Core infrastructure deployment and initial node network establishment",
     },
     {
-      phase: "Phase 2", 
+      phase: "Phase 2",
       title: "Token Generation Event (TGE) + Connect-to-Earn rollout",
-      description: "Token launch and implementation of the core earning mechanism"
+      description:
+        "Token launch and implementation of the core earning mechanism",
     },
     {
       phase: "Phase 3",
       title: "Mainnet Expansion + global node onboarding",
-      description: "Scaling the network globally and expanding node coverage"
+      description: "Scaling the network globally and expanding node coverage",
     },
     {
       phase: "Phase 4",
       title: "DAO activation + Smart City partnerships",
-      description: "Community governance and enterprise partnerships"
-    }
+      description: "Community governance and enterprise partnerships",
+    },
   ];
 
   return (
     <section id="roadmap" className="relative py-20 bg-black">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_70%,_rgba(139,92,246,0.1)_0%,_transparent_50%)]"></div>
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <div className="text-3xl md:text-4xl font-mono text-white mb-6">
             Roadmap to Decentralized Connectivity
-          </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Our strategic path to building the future of decentralized WiFi infrastructure
-          </p>
+          </div>
         </div>
 
         {/* Network Diagram */}
@@ -46,12 +45,12 @@ export default function RoadmapSection() {
               <div className="absolute top-1/2 left-1/3 w-8 h-8 bg-primary rounded-full transform -translate-y-1/2"></div>
               <div className="absolute top-1/2 left-2/3 w-8 h-8 bg-primary rounded-full transform -translate-y-1/2"></div>
               <div className="absolute top-1/2 right-0 w-8 h-8 bg-primary rounded-full transform -translate-y-1/2"></div>
-              
+
               {/* Connection Lines */}
               <div className="absolute top-1/2 left-8 w-1/3 h-0.5 bg-primary"></div>
               <div className="absolute top-1/2 left-1/3 w-1/3 h-0.5 bg-primary"></div>
               <div className="absolute top-1/2 left-2/3 w-1/3 h-0.5 bg-primary"></div>
-              
+
               {/* Secondary Connections */}
               <div className="absolute top-0 left-1/6 w-0.5 h-8 bg-primary/50"></div>
               <div className="absolute top-0 left-1/2 w-0.5 h-8 bg-primary/50"></div>
@@ -71,22 +70,32 @@ export default function RoadmapSection() {
               <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-black rounded-full flex items-center justify-center font-bold text-lg z-10">
                 {index + 1}
               </div>
-              
+
               {/* Phase Card */}
               <div className="bg-gray-800/30 backdrop-blur-sm border border-gray-700 rounded-xl p-6 h-full hover:border-primary/50 transition-all duration-300 hover:transform hover:scale-105 group-hover:bg-gray-800/50">
                 <div className="space-y-4">
                   {/* Phase Header */}
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
-                      <svg className="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      <svg
+                        className="w-4 h-4 text-primary"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M13 10V3L4 14h7v7l9-11h-7z"
+                        />
                       </svg>
                     </div>
                     <div className="text-primary font-bold text-lg">
                       {phase.phase}
                     </div>
                   </div>
-                  
+
                   {/* Content */}
                   <div className="space-y-3">
                     <h3 className="text-lg font-bold text-white group-hover:text-primary transition-colors">
@@ -123,8 +132,8 @@ export default function RoadmapSection() {
               Join Our Journey
             </h3>
             <p className="text-gray-300 mb-6">
-              Be part of the revolution in decentralized connectivity. 
-              Follow our progress and contribute to the future of WiFi sharing.
+              Be part of the revolution in decentralized connectivity. Follow
+              our progress and contribute to the future of WiFi sharing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-primary text-black px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-all transform hover:scale-105">
@@ -139,4 +148,4 @@ export default function RoadmapSection() {
       </div>
     </section>
   );
-} 
+}
