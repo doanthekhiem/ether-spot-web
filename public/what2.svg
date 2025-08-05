@@ -1,0 +1,16 @@
+<svg width="248" height="240" viewBox="0 0 248 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_g_73_450)">
+<path d="M101.697 153.467C114.248 140.916 134.119 140.916 145.624 153.467M79.2109 131.504C103.266 107.449 143.009 107.449 168.11 131.504M163.926 62.476C193.211 88.6227 212.037 122.091 215.174 162.88M83.3943 62.476C54.1099 88.6227 35.2844 122.091 32.1468 162.88M77.1191 222.494C107.449 235.045 138.826 236.091 171.248 222.494M124.183 47.8348C135.736 47.8348 145.101 38.4698 145.101 26.9174C145.101 15.365 135.736 6 124.183 6C112.631 6 103.266 15.365 103.266 26.9174C103.266 38.4698 112.631 47.8348 124.183 47.8348ZM220.403 234C231.956 234 241.321 224.635 241.321 213.083C241.321 201.531 231.956 192.165 220.403 192.165C208.851 192.165 199.486 201.531 199.486 213.083C199.486 224.635 208.851 234 220.403 234ZM26.9174 234C38.4698 234 47.8348 224.635 47.8348 213.083C47.8348 201.531 38.4698 192.165 26.9174 192.165C15.365 192.165 6 201.531 6 213.083C6 224.635 15.365 234 26.9174 234ZM123.66 184.844C121.35 184.844 119.477 182.971 119.477 180.661C119.477 178.35 121.35 176.477 123.66 176.477C125.971 176.477 127.843 178.35 127.843 180.661C127.843 182.971 125.971 184.844 123.66 184.844Z" stroke="#39FF14" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_g_73_450" x="0" y="0" width="247.321" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="2 2" numOctaves="3" seed="541" />
+<feDisplacementMap in="shape" scale="8" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect1_texture_73_450">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+</filter>
+</defs>
+</svg>

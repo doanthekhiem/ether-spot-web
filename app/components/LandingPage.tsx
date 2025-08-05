@@ -7,6 +7,7 @@ import TokenUtilitySection from "./TokenUtilitySection";
 import TokenDistributionSection from "./TokenDistributionSection";
 import RoadmapSection from "./RoadmapSection";
 import Footer from "./Footer";
+import WhatIsEtherSpotEnabled from "./WhatIsEtherSpotEnabledSection";
 
 export default function LandingPage() {
   return (
@@ -16,7 +17,7 @@ export default function LandingPage() {
         <HeroSection />
         <HowItWorksSection />
         <WhyChooseSection />
-        <UseCasesSection />
+        <WhatIsEtherSpotEnabled />
         <TokenUtilitySection />
         <TokenDistributionSection />
         <RoadmapSection />
