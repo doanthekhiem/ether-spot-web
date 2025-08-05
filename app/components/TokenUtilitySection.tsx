@@ -99,41 +99,30 @@ export default function TokenUtilitySection() {
 
   return (
     <section id="token-utility" className="relative py-20 bg-black">
-      {/* Background Effects */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,_rgba(0,255,136,0.1)_0%,_transparent_50%)]"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,_rgba(0,255,136,0.1)_0%,_transparent_50%)]"></div>
-
-      {/* Vertical Light Beams */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-primary to-transparent"></div>
-        <div className="absolute right-0 top-0 w-1 h-full bg-gradient-to-b from-primary to-transparent"></div>
-      </div>
-
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="text-3xl md:text-4xl font-mono text-white mb-6">
+          <div className="text-3xl md:text-4xl font-mono text-white mb-2">
             The <span className="text-primary">$SPOT</span> Token
+          </div>
+          <div className="text-gray-300 leading-relaxed text-sm mb-6">
+            Your Gateway to Earning and Access
           </div>
         </div>
 
         {/* Token Utilities Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid md:grid-cols-5 mb-16">
+          <div className="col-span-6 pb-9">
+            <img src="/banner6.svg" alt="Token" className="w-full h-auto" />
+          </div>
           {utilities.map((utility, index) => (
             <div key={index} className="group">
-              <div className="bg-gray-800/30 backdrop-blur-sm border border-gray-700 rounded-xl p-6 h-full hover:border-primary/50 transition-all duration-300 hover:transform hover:scale-105 group-hover:bg-gray-800/50">
+              <div>
                 <div className="text-center space-y-4">
-                  {/* Icon */}
-                  <div className="flex justify-center">
-                    <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-primary group-hover:bg-primary/30 transition-colors">
-                      {utility.icon}
-                    </div>
-                  </div>
-
                   {/* Content */}
                   <div className="space-y-3">
-                    <h3 className="text-lg font-bold text-white group-hover:text-primary transition-colors">
+                    <div className="text-[20px] h-[60px] font-bold text-white group-hover:text-primary transition-colors">
                       {utility.title}
-                    </h3>
+                    </div>
                     <p className="text-gray-300 leading-relaxed text-sm">
                       {utility.description}
                     </p>
@@ -142,48 +131,6 @@ export default function TokenUtilitySection() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Token Information */}
-        <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-8 border border-primary/30">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-white">
-                Token Supply Information
-              </h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-300">Fixed Supply:</span>
-                  <span className="text-primary font-bold">
-                    300,000,000 SPOT
-                  </span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-300">Token Type:</span>
-                  <span className="text-primary font-bold">ERC-20</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-300">Economic Model:</span>
-                  <span className="text-primary font-bold">Deflationary</span>
-                </div>
-              </div>
-              <p className="text-gray-300 text-sm">
-                High utility = long term value. The SPOT token is designed to
-                increase in value as the network grows and adoption expands.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-48 h-48 mx-auto bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full flex items-center justify-center border-2 border-primary/30">
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-primary mb-2">
-                    SPOT
-                  </div>
-                  <div className="text-gray-300 text-sm">Token</div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
