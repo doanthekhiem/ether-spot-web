@@ -5,8 +5,15 @@ export default function HeroSection() {
       className="relative min-h-[60vh] flex items-center justify-center overflow-hidden"
     >
       {/* Background Effects */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(0,255,136,0.1)_0%,_transparent_70%)]"></div>
+      <div
+        className="absolute inset-0 "
+        style={{
+          backgroundImage: `url(/bannerHero.svg)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      ></div>
 
       {/* Grid Pattern */}
       <div className="absolute inset-0 opacity-20">

@@ -1,73 +1,21 @@
 export default function HowItWorksSection() {
   const steps = [
     {
-      icon: (
-        <svg
-          className="w-12 h-12"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          {/* Desktop monitor */}
-          <rect x="2" y="3" width="8" height="6" rx="1" strokeWidth="2" />
-          <line x1="4" y1="7" x2="8" y2="7" strokeWidth="2" />
-          {/* Smartphone */}
-          <rect x="14" y="4" width="4" height="8" rx="1" strokeWidth="2" />
-          <line x1="15" y1="6" x2="17" y2="6" strokeWidth="2" />
-          <line x1="15" y1="8" x2="17" y2="8" strokeWidth="2" />
-          {/* Connection arrows */}
-          <path d="M10 6 L14 6" strokeWidth="2" strokeLinecap="round" />
-          <path d="M10 8 L14 8" strokeWidth="2" strokeLinecap="round" />
-        </svg>
-      ),
+      icon: <img src="/how1.svg" alt="Step 1" className="w-8 h-8" />,
       step: "Step 1",
       title: "SETUP & CONNECT",
       description:
         "Install the EtherSpot app or use our SDK to register your WiFi router or mobile hotspot.",
     },
     {
-      icon: (
-        <svg
-          className="w-12 h-12"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          {/* Share symbol - three circles connected */}
-          <circle cx="12" cy="8" r="2" strokeWidth="2" />
-          <circle cx="6" cy="16" r="2" strokeWidth="2" />
-          <circle cx="18" cy="16" r="2" strokeWidth="2" />
-          <line x1="12" y1="10" x2="6" y2="14" strokeWidth="2" />
-          <line x1="12" y1="10" x2="18" y2="14" strokeWidth="2" />
-        </svg>
-      ),
+      icon: <img src="/how2.svg" alt="Step 2" className="w-8 h-8" />,
       step: "Step 2",
       title: "SHARE & CONTROL",
       description:
         "Define when, where, and how much bandwidth you want to share – fully encrypted and private",
     },
     {
-      icon: (
-        <svg
-          className="w-12 h-12"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          {/* Circle with E */}
-          <circle cx="12" cy="12" r="10" strokeWidth="2" />
-          <text
-            x="12"
-            y="16"
-            textAnchor="middle"
-            fill="currentColor"
-            fontSize="14"
-            fontWeight="bold"
-          >
-            E
-          </text>
-        </svg>
-      ),
+      icon: <img src="/how3.svg" alt="Step 3" className="w-8 h-8" />,
       step: "Step 3",
       title: "EARN SPOT TOKENS",
       description:
