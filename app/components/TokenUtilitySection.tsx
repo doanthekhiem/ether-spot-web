@@ -110,7 +110,7 @@ export default function TokenUtilitySection() {
         </div>
 
         {/* Token Utilities Grid */}
-        <div className="grid md:grid-cols-5 mb-16">
+        <div className="grid md:grid-cols-5">
           <div className="col-span-6 pb-9">
             <img src="/banner6.svg" alt="Token" className="w-full h-auto" />
           </div>
