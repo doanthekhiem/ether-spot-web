@@ -111,7 +111,7 @@ export default function TokenUtilitySection() {
 
         {/* Token Utilities Grid */}
         <div className="grid md:grid-cols-5">
-          <div className="col-span-6 pb-9">
+          <div className="col-span-5 pb-9">
             <img src="/banner6.svg" alt="Token" className="w-full h-auto" />
           </div>
           {utilities.map((utility, index) => (
@@ -120,10 +120,10 @@ export default function TokenUtilitySection() {
                 <div className="text-center space-y-4">
                   {/* Content */}
                   <div className="space-y-3">
-                    <div className="text-[20px] h-[60px] font-bold text-white group-hover:text-primary transition-colors">
+                    <div className="lg:text-[20px] text-[16px] h-[60px] font-bold text-white group-hover:text-primary transition-colors">
                       {utility.title}
                     </div>
-                    <p className="text-gray-300 leading-relaxed text-sm">
+                    <p className="lg:text-sm text-[14px] text-gray-300 leading-relaxed">
                       {utility.description}
                     </p>
                   </div>

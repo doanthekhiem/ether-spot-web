@@ -49,15 +49,14 @@ export default function WhatIsEtherSpotEnabled() {
   return (
     <section id="use-cases" className="relative py-20">
       <div
-        className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+        className="relative z-10 max-w-7xl  lg:bg-contain  mx-auto px-4 sm:px-6 lg:px-8"
         style={{
           backgroundImage: `url(/banner3.png)`,
-          backgroundSize: "contain",
           backgroundPosition: "center bottom",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="text-center mb-16">
+        <div className="text-center lg:mb-16">
           <div className="text-3xl md:text-4xl font-mono text-white mb-2">
             What EtherSpot Enables
           </div>
@@ -72,7 +71,7 @@ export default function WhatIsEtherSpotEnabled() {
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10  backdrop-blur-sm rounded-full p-3 transition-all duration-300 hover:bg-gray-800/50"
+            className="absolute left-4 lg:top-1/2 top-1/3 transform -translate-y-1/2 z-10  backdrop-blur-sm rounded-full p-3 transition-all duration-300 hover:bg-gray-800/50"
           >
             <svg
               className="w-8 h-8 text-white"
@@ -91,7 +90,7 @@ export default function WhatIsEtherSpotEnabled() {
 
           <button
             onClick={nextSlide}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-[#000000B2] backdrop-blur-sm rounded-full p-3 transition-all duration-300 hover:bg-gray-800/50"
+            className="absolute right-4 lg:top-1/2 top-1/3 transform -translate-y-1/2 z-10 bg-[#000000B2] backdrop-blur-sm rounded-full p-3 transition-all duration-300 hover:bg-gray-800/50"
           >
             <svg
               className="w-8 h-8 text-white"
@@ -115,15 +114,15 @@ export default function WhatIsEtherSpotEnabled() {
               <img
                 src={slides[currentSlide].image}
                 alt={slides[currentSlide].title}
-                className="w-auto h-[228px] mx-auto"
+                className="w-auto lg:h-[228px] h-[150px] mx-auto"
               />
 
               {/* Title */}
-              <div className="flex items-center justify-start gap-4">
-                <div className="text-[16px] font-medium text-primary h-12 w-12 flex items-center justify-center bg-[#071C03] rounded-full">
+              <div className="flex items-center justify-start lg:gap-4 gap-1">
+                <div className="lg:text-[16px] text-[14px] font-medium text-primary lg:h-12 lg:w-12 h-10 w-10 flex items-center justify-center bg-[#071C03] rounded-full">
                   {slides[currentSlide].number}
                 </div>
-                <div className="text-[16px] font-normal text-white">
+                <div className="lg:text-[16px] text-[14px] font-normal text-white">
                   {slides[currentSlide].title}
                 </div>
               </div>
@@ -133,7 +132,7 @@ export default function WhatIsEtherSpotEnabled() {
                 {slides[currentSlide].points.map((point, index) => (
                   <li
                     key={index}
-                    className="text-white font-medium leading-relaxed text-left text-sm pl-0"
+                    className="text-white font-medium leading-relaxed text-left lg:text-sm text-[14px] pl-0"
                   >
                     {point}
                   </li>
@@ -142,7 +141,7 @@ export default function WhatIsEtherSpotEnabled() {
             </div>
           </div>
         </div>
-        <div className="h-[300px]"></div>
+        <div className="lg:h-[300px] h-[200px]"></div>
       </div>
     </section>
   );

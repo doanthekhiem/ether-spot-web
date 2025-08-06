@@ -27,7 +27,7 @@ export default function HowItWorksSection() {
     <section id="how-it-works" className="relative ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-[#0F100F] py-10">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center lg:mb-16">
           <div className="inline-block bg-black rounded-full px-6 py-2 mb-8">
             <div className="text-white font-mono text-lg uppercase tracking-wide">
               HOW ETHERSPOT WORKS
@@ -39,7 +39,7 @@ export default function HowItWorksSection() {
           {steps.map((step, index) => (
             <div key={index} className="text-left px-10 space-y-2 relative">
               {/* Vát góc trên bên trái */}
-              <div className="absolute top-[-176px] left-[-28px] w-20 h-20 bg-[#0F100F] transform -translate-x-1 -translate-y-1">
+              <div className="absolute hidden lg:block top-[-176px] left-[-28px] w-20 h-20 bg-[#0F100F] transform -translate-x-1 -translate-y-1">
                 <div className="w-full h-full bg-black clip-diagonal"></div>
               </div>
 

@@ -27,7 +27,7 @@ export default function RoadmapSection() {
       {/* Background Effects */}
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-        <div className="flex justify-between items-center pb-10">
+        <div className="flex justify-between lg:flex-row flex-col items-center pb-10">
           <div className="text-3xl md:text-4xl font-mono text-white mb-6">
             Roadmap to
             <br />

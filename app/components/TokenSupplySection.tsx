@@ -1,10 +1,9 @@
 export default function TokenSupplySection() {
   return (
     <div
-      className="h-[100px] w-full flex items-center justify-center"
+      className="py-10 lg:h-[100px] w-full bg-inherit lg:bg-cover flex items-center justify-center"
       style={{
         backgroundImage: `url(/banner7.png)`,
-        backgroundSize: "cover",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
       }}

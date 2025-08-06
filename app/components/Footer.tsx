@@ -39,7 +39,7 @@ export default function Footer() {
 
           {/* Navigation Links */}
           <div className="col-span-2">
-            <div className="flex items-center justify-between gap-4">
+            <div className="flex items-center flex-wrap justify-between gap-4">
               {navigationLinks.map((link) => (
                 <div key={link.name}>
                   <a

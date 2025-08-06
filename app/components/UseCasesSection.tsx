@@ -27,7 +27,7 @@ export default function UseCasesSection() {
   ];
 
   return (
-    <section id="use-cases" className="relative pt-[600px]">
+    <section id="use-cases" className="relative lg:pt-[600px] pt-70">
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="text-3xl md:text-4xl font-mono text-white mb-6">
@@ -45,7 +45,11 @@ export default function UseCasesSection() {
                   </div>
                   <div className="flex justify-center">
                     <div className="w-full h-auto">
-                      <img src={useCase.image} alt={useCase.title} />
+                      <img
+                        src={useCase.image}
+                        className="w-full h-auto"
+                        alt={useCase.title}
+                      />
                     </div>
                   </div>
 

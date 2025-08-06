@@ -17,10 +17,9 @@ export default function WhyChooseSection() {
 
   return (
     <section
-      className="relative min-h-svw flex flex-col py-10 "
+      className="relative min-h-svw lg:bg-cover flex flex-col py-10 "
       style={{
         backgroundImage: `url(/bannerHero.png)`,
-        backgroundSize: "cover",
         backgroundPosition: "center top",
         backgroundRepeat: "no-repeat",
       }}

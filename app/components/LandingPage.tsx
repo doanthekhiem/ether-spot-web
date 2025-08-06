@@ -25,8 +25,8 @@ export default function LandingPage() {
         <RoadmapSection />
 
         {/* Final CTA Section */}
-        <section className="relative py-10 bg-black h-[50vh]">
-          <div className="absolute inset-0 bg-black/20">
+        <section className="relative py-10 bg-black lg:h-[50vh]">
+          <div className="absolute hidden lg:block inset-0 bg-black/20">
             <img src="/banner9.svg" alt="CTA" className="w-full h-full" />
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center h-full">
