@@ -25,17 +25,27 @@ export default function LandingPage() {
         <RoadmapSection />
 
         {/* Final CTA Section */}
-        <section className="relative py-20 bg-gradient-to-r from-primary to-secondary">
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="text-3xl md:text-4xl font-mono text-white mb-6">
+        <section className="relative py-10 bg-black h-[50vh]">
+          <div className="absolute inset-0 bg-black/20">
+            <img src="/banner9.svg" alt="CTA" className="w-full h-full" />
+          </div>
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center h-full">
+            <div className="text-3xl md:text-4xl font-mono text-white mb-4">
               Ready to Turn Your WiFi Into Income?
             </div>
-            <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+            <p className="text-lg text-[#D8D4DE] mb-8 max-w-3xl mx-auto">
               Join the movement. Build the network. Earn SPOT.
             </p>
-            <button className="bg-white text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all transform hover:scale-105">
-              Get Started
+            <button
+              className="px-6 py-2 rounded-full font-mono font-semibold text-white transition-all duration-200 hover:scale-105 backdrop-blur-[18%]"
+              style={{
+                background:
+                  "radial-gradient(circle, rgba(95, 213, 46, 0.1) 0%, rgba(95, 213, 46, 0.8) 100%)",
+                border: "1px solid #5FD52E",
+                boxShadow: "0px 2px 1px rgba(0, 0, 0, 0.1)",
+              }}
+            >
+              Join Waitlist
             </button>
           </div>
         </section>
