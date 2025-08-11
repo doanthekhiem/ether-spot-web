@@ -12,7 +12,7 @@ export default function Footer() {
     { name: "Token Utility", url: "#token-utility" },
     { name: "Use Cases", url: "#use-cases" },
     { name: "Roadmap", url: "#roadmap" },
-    { name: "Whitepaper", url: "#whitepaper" },
+    { name: "Whitepaper", url: "https://etherspot-1.gitbook.io/etherspot-docs/" },
   ];
 
   const legalLinks = [

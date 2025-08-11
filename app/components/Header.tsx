@@ -47,7 +47,7 @@ export default function Header() {
               Roadmap
             </a>
             <a
-              href="#whitepaper"
+              href="https://etherspot-1.gitbook.io/etherspot-docs/"
               className="text-white hover:text-primary transition-colors"
             >
               Whitepaper
@@ -123,7 +123,7 @@ export default function Header() {
                 Roadmap
               </a>
               <a
-                href="#whitepaper"
+                href="https://etherspot-1.gitbook.io/etherspot-docs/"
                 className="block px-3 py-2 text-white hover:text-primary transition-colors"
               >
                 Whitepaper
